@@ -1,0 +1,20 @@
+.avtar {
+   width: 200px;
+    height: 200px;
+     }
+    .result {
+   -webkit-animation: fadein 10s;
+    animation: fadein 5s;
+    border: 1px solid greenyellow;
+    width: 600px;
+    display: inline-block;
+   max-height: 600px;
+    }
+   @keyframes fadein {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+    }
